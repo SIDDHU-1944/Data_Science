@@ -1,0 +1,7 @@
+Developed a machine learning–based customer churn prediction system for the telecommunications sector, targeting a core business challenge where customer retention directly impacts revenue. The project covered the complete data science workflow from raw data ingestion to deployment-ready model preparation.
+
+Performed detailed data profiling and quality checks on a dataset containing 7,000+ records and 21 features related to customer demographics, service usage, and billing metrics. Resolved data inconsistencies through missing value imputation and type standardization. Conducted exploratory data analysis using Pandas, Matplotlib, and Seaborn, uncovering key behavioral and financial patterns relevant to churn.
+
+Addressed a significant class imbalance (73:27) using SMOTE to ensure fair model training. Evaluated multiple algorithms—including Decision Tree, Random Forest, and XGBoost—through 5-fold cross-validation, with Random Forest selected for its superior performance. The final model achieved over 80% accuracy with strong minority-class detection.
+
+Built a production-ready inference pipeline using serialized preprocessing transformers and model artifacts (pickle), enabling consistent predictions on new customer inputs. Analysis highlighted tenure, contract type, and monthly charges as the strongest churn predictors, offering clear direction for targeted customer retention strategies.
